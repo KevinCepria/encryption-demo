@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                  
+      "module": "commonjs",            
+      "strict": true,                  
+      "esModuleInterop": true,         
+      "skipLibCheck": true,            
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist"               
+    },
+    "include": [
+      "methods/**/*.mts",
+      "methods/**/*.ts",
+      "index.ts"
+    ],
+    "exclude": [
+     "/home/kevincepria/Work/Encryption POC/dist",
+     "node_mdoules"
+    ]
+  }
+  
