@@ -9,12 +9,10 @@
       "outDir": "./dist"               
     },
     "include": [
-      "methods/**/*.mts",
       "methods/**/*.ts",
       "index.ts"
     ],
     "exclude": [
-     "/home/kevincepria/Work/Encryption POC/dist",
      "node_mdoules"
     ]
   }
