@@ -1,4 +1,4 @@
-import { encryptURL, decryptURL } from "./methods/AES-CBC";
+import { encryptURL, decryptURL } from "./methods/AES-GCM";
 
 const url = "https://example.com/page?param=value";
 
