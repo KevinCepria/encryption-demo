@@ -1,5 +1,5 @@
-const key = "your-32-byte-secret-key-12345678"; // 32 bytes
-const iv = "your-16-byte-iv-"; // 16 bytes
+const key = "eerrRwNmKi3qJWoAByBL9pKeDQVVfAta"; // 32 bytes
+const iv = "MN1vX3A0vdn7XqY2"; // 16 bytes
 
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
@@ -34,7 +34,7 @@ export const encryptURL = async (url: string) => {
 };
 
 export const decryptURL = async (encryptedURL: string) => {
-  // Decode the encrypted URL-safe Base64 string
+  // Decode the encrypted URL-safe Base64 string then to ArrayBuffer
   const encryptedBase64 = decodeURIComponent(encryptedURL);
   const encryptedBuffer = Uint8Array.from(atob(encryptedBase64), (c) =>
     c.charCodeAt(0)
